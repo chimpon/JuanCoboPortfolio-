@@ -1,0 +1,264 @@
+body {
+  background-color: #333333;
+  color: #ffe3eb;
+}
+
+main {
+  padding: 0px 16px 16px 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 56px 0px;
+  border-bottom: #ffe3eb 1px solid;
+  padding: 0px 16px 16px;
+}
+
+.logo {
+  font-family: "hegante", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.7rem;
+  line-height: 1.4rem;
+  color: #ffe3eb;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0px;
+}
+
+.contact_button {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 500, 'wdth' 115, 'slnt' 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffe3eb;
+  padding: 16px 30px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  width: 100px;
+  border-radius: 80px/27px;
+  border: #ffe3eb 1px solid;
+}
+
+.contact_button:hover {
+  background-color: #ffe3eb;
+  color: #333333;
+}
+
+h1 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 400, 'wdth' 115, 'slnt' 0;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin: 0px 0px 48px 0px;
+}
+
+.project {
+  padding-bottom: 32px;
+  border-bottom: #ffe3eb4d solid 1px;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.projects h2 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 400, 'wdth' 115, 'slnt' 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.project h3 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 500, 'wdth' 115, 'slnt' 0;
+  font-size: 1rem;
+}
+
+.project a,
+.project p {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 300, 'wdth' 115, 'slnt' 0;
+  font-size: 1rem;
+  color: #ffe3eb;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project p {
+  margin-top: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goto {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  padding: 0px 16px;
+  border-top: #ffe3eb 1px solid;
+  padding: 24px 16px 0px 16px;
+}
+
+.contact h2 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 400, 'wdth' 115, 'slnt' 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+
+
+footer p {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  float: right;
+}
+
+footer span {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+.contact_links {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+  gap: 24px;
+}
+
+.contact_links a {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 300, 'wdth' 115, 'slnt' 0;
+  font-size: 1rem;
+  color: #ffe3eb;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40
+}
+
+/*Styles in project_1*/
+.project_header h2 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 400, 'wdth' 115, 'slnt' 0;
+  font-size: 1.2rem;
+  margin: 24px 0px;
+}
+
+
+
+.juan-image {
+  width: 100%;
+  height: auto;
+}
+
+.project_section h3 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 300, 'wdth' 115, 'slnt' 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ffe3eb;
+}
+
+.project_section p {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+figcaption {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.9rem;
+  letter-spacing: 0.1px;
+}
+
+details {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+section.project_section {
+  padding-bottom: 16px;
+  border-bottom: #ffe3eb 1px solid;
+}
+
+.other_projects {
+  font-family: "acumin-variable", sans-serif;
+  margin-top: 40px;
+}
+
+.other_projects h2 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 400, 'wdth' 115, 'slnt' 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.other_projects h3 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 500, 'wdth' 115, 'slnt' 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.other_projects h4 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 400, 'wdth' 115, 'slnt' 0;
+  font-size: 1.1rem;
+
+}
+
+.other_projects h5 {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: 'wght' 300, 'wdth' 115, 'slnt' 0;
+  font-size: 1rem;
+}
+
+/*media queries*/
+
+@media (min-width : 1000px) {
+  .logo {
+    font-size: 3.7rem;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
